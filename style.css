@@ -1,3 +1,10 @@
+    body a, p, h {
+      font-family: arial, sans-serif;
+
+    }
+    
+    
+    
     #navbar {
       list-style-type: none;
       margin: 0;
@@ -5,8 +12,6 @@
       text-align: right;
       
       }
-
-
 
     .centrar {
         display: block;
@@ -35,26 +40,31 @@
 
     input {
         border-radius: 15px;
-        box-shadow: grey;
         font-size: 20px;
+        }
+
+    input:hover {
+      
+
     }
 
     button {
         margin-top: 15px;
+        color: black;
     }
+
+ 
 
     footer {
         position: absolute;
         bottom: 0;
-           }
+        background-color:lightgray;
+        border-radius: 2px;
+                }
 
 
     button a {
         text-decoration: none;
         color: black;
-    }
-    #foot_izquierda {
-    text-align: left; 
-
     }
    
